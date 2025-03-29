@@ -223,7 +223,7 @@ th.accent__bg {
   width: 90%;
   max-width: 1136px;
   margin-inline: auto;
-  padding-block: var(--spacing-60);
+  padding-block: var(--spacing-24) var(--spacing-60);
 }
 
 table {
@@ -286,6 +286,10 @@ td:nth-child(3) {
   .section__description {
     max-width: 41ch;
     margin-inline: auto;
+  }
+
+  .pricing {
+    padding-block: var(--spacing-60);
   }
 }
 

@@ -48,6 +48,7 @@
   --spacing-20: 1.25rem;
   --spacing-24: 1.5rem;
   --spacing-32: 2rem;
+  --spacing-42: 2.625rem;
   --spacing-46: 2.875rem;
   --spacing-52: 3.25rem;
   --spacing-60: 3.75rem;
@@ -208,7 +209,7 @@ th.accent__bg {
   background-image: url('../resources/bg-pattern.png');
   color: var(--color-neutral-900);
   text-align: center;
-  padding-block: var(--spacing-52);
+  padding-block: var(--spacing-42);
   padding-inline: var(--spacing-12);
 }
 
@@ -234,7 +235,7 @@ table {
 }
 
 th:not(.feature) {
-  padding-block: var(--spacing-24) var(--spacing-46);
+  padding-block: var(--spacing-12) var(--spacing-46);
 }
 
 th,
@@ -294,6 +295,14 @@ td:nth-child(3) {
 }
 
 @media (min-width: 1024px) {
+  .header {
+    padding-block: var(--spacing-52);
+  }
+
+  th:not(.feature) {
+    padding-block: var(--spacing-24) var(--spacing-46);
+  }
+
   th:nth-child(3),
   td:nth-child(3) {
     display: table-cell;
